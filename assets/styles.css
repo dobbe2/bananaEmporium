@@ -1,0 +1,33 @@
+html{
+    background-color: #ffb228;
+}
+
+#hero-container{
+    text-align: center;
+}
+
+#hero-img{
+    width: 30%;
+    margin: 30px auto;
+}
+
+.products{
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+#video{
+    margin: 20px auto;
+    padding: 20px 100px 40px 100px;
+}
+
+#form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#footer{
+    padding: 20px;
+    background-color: #ffdd58;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header id="header">
+    <nav id="nav-bar" class="navbar is-warning is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img id="header-img" src="https://www.pinclipart.com/picdir/big/379-3791999_banana-png-amp-banana-transparent-clipart-free-download.png" width="auto" height="35">
+            <h2>&nbsp; The Banana Emporium</h2>
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="#title"class="navbar-item nav-link">
+              Home
+            </a>
+      
+            <a href="#products" class="navbar-item nav-link">
+              Products
+            </a>
+
+            <a href="#video" class="navbar-item nav-link">
+              Video
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <section id="header" class="hero is-warning is-bold">
+        <img id="hero-img" src="./assets/images/banana.png" alt="big banana">
+        <div class="hero-body">
+          <div id="hero-container" class="container">
+            <h1 id="title" class="title">
+                Welcome to the Banana Emporium
+            </h1>
+            <h2 class="subtitle" >
+                <p id="description">Your source for all things banana</p>
+            </h2>
+          </div>
+        </div>
+      </section>
+      <div id="products" class="columns">
+        <div class="column products">
+          <img src="./assets/images/jam.jpg" alt="picture of banana jam">
+          <p>A deliscious banana jam that will make your bread wish it was banana bread!</p>
+        </div>
+        <div class="column products">
+          <img src="./assets/images/cone.jpg" alt="picture of banana safety cone">
+          <p>A safety cone made for the slippery areas in your office, home, or street.</p>
+        </div>
+        <div class="column products">
+          <img src="./assets/images/bunch.jpg" alt="bunch of bananans">
+          <p>We have TONS of bananas, bunches and bunches of bananas.</p>
+        </div>
+      </div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+        <h1 class="is-size-3">Join our mailing list for to get our newsletter</h1>
+        <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="e.g Donkey Kong" name="name'">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label  class="label">Email</label>
+            <div class="control">
+              <input id="email" class="input" type="email" placeholder="e.g. bananahorder@kong.com" name="email">
+            </div>
+          </div>
+
+          <div class="control">
+            <input id="submit" class="button is-warning" type="submit" value="Submit" name="submit">
+          </div>
+      </form>
+
+      <figure class="image is-16by9">
+        <iframe id="video" class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/SpAHPXNhAwk" frameborder="0" allowfullscreen></iframe>
+      </figure>
+
+      <footer id="footer" class="footer is-warning">
+        <div  class="content has-text-centered">
+          <p>
+            <strong>Banana Emporium</strong> by <a href="https://github.com/dobbe2">James Dobbe</a> <br>
+            <p>Copywrite JD Designs 2020</p>
+          </p>
+        </div>
+      </footer>
+      <script src="./script.js"></script>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
