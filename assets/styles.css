@@ -1,5 +1,25 @@
 html{
     background-color: #ffb228;
+    background: linear-gradient(180deg, #fec33b, #ffdd58,  #fec33b)
+}
+
+/* test burger hiding the logo, moving logo to the right */
+#nav-bar{
+    padding-left: 30px;
+}
+
+/* Removing the padding from above fix so menu shows across entire display */
+#navbarBasicExample {
+    margin-left: -30px;
+}
+
+#hero-container{
+    text-align: center;
+}
+
+#hero-img{
+    width: 30%;
+    margin: 30px auto;
 }
 
 @media (max-width: 425px){
@@ -12,13 +32,11 @@ html{
     }
 }
 
-#hero-container{
-    text-align: center;
-}
-
-#hero-img{
-    width: 30%;
-    margin: 30px auto;
+@media (min-width: 426px){
+    #hero-img{
+        width: 30%;
+        margin: 30px auto;
+    }
 }
 
 .products{
@@ -30,6 +48,11 @@ html{
 #video{
     margin: 20px auto;
     padding: 20px 100px 40px 100px;
+    border: red 20px;
+}
+
+#image {
+    padding: 0 40%;
 }
 
 #form{
