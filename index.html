@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
+    <title>Banana Emporium</title>
+    <!-- Bulma CSS framework -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <!-- local css stylesheet -->
     <link rel="stylesheet" href="./assets/styles.css">
+    <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="./assets/favicons/site.webmanifest">
 </head>
 <body>
+  <!-- header -->
 <header id="header">
+  <!-- navbar -->
     <nav id="nav-bar" class="navbar is-warning is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
@@ -45,6 +50,7 @@
       </nav>
     </header>
 
+      <!-- matin title and image -->
       <section id="header" class="hero is-warning is-bold">
         <img id="hero-img" src="./assets/images/banana.png" alt="big banana">
         <div class="hero-body">
@@ -58,11 +64,13 @@
           </div>
         </div>
       </section>
+
+      <!-- products section -->
       <div id="products" class="columns">
         <div class="column is-1"></div>
         <div class="column products ">
           <img src="./assets/images/jam.jpg" alt="picture of banana jam">
-          <p>A deliscious banana jam that will make your bread wish it was banana bread!</p>
+          <p>A delicious banana jam that will make your bread wish it was banana bread!</p>
           <a href="https://mariesharpscanada.com/product/banana-jam-11-oz/">Link to Product</a>
         </div>
         <div class="column products">
@@ -77,6 +85,8 @@
         </div>
         <div class="column is-1"></div>
       </div>
+
+      <!-- join newsletter -->
       <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
         <h1 class="is-size-3">Join our mailing list for to get our newsletter</h1>
         <div class="field">
@@ -98,10 +108,12 @@
           </div>
       </form>
 
+      <!-- banana video -->
         <figure class="image is-16by9">
-          <iframe id="video" class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/SpAHPXNhAwk" frameborder="20px" allowfullscreen></iframe>
+          <iframe id="video" class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/SpAHPXNhAwk" frameborder="0" allowfullscreen></iframe>
         </figure> 
 
+      <!-- footer -->
       <footer id="footer" class="footer is-warning">
         <div  class="content has-text-centered">
           <p>
