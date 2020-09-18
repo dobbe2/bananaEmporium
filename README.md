@@ -2,7 +2,7 @@
 
 A Product Landing page created for the Responsive Web Design Certification.
 
-# Visit this Portfolio
+# Visit this Product Landing Page
 
 https://dobbe2.github.io/bananaEmporium/
 
