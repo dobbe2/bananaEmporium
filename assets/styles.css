@@ -1,6 +1,7 @@
 html{
     background-color: #ffb228;
-    background: linear-gradient(180deg, #fec33b, #ffdd58,  #fec33b)
+    background: linear-gradient(180deg, #fec33b, #ffdd58,  #fec33b);
+    scroll-behavior: smooth;
 }
 
 /* test burger hiding the logo, moving logo to the right */
