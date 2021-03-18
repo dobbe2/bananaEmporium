@@ -4,6 +4,19 @@ html{
     scroll-behavior: smooth;
 }
 
+h1 {
+    text-align: center;
+}
+
+a {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+#submit {
+    border: 1px solid darkolivegreen;
+}
+
 /* test burger hiding the logo, moving logo to the right */
 #nav-bar{
     padding-left: 30px;
@@ -30,17 +43,17 @@ html{
 }
 
 /* make the banana rock back and forth */
-@-webkit-keyframes swing {
+@keyframes swing {
     0% {
-      transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
     50% {
-      transform: rotate(10deg);
+        transform: rotate(10deg);
     }
     100% {
-      transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
-  }
+}
 
 /* if screen is smaller than 425px, set width of image and form to these */
 @media (max-width: 425px){
@@ -65,6 +78,20 @@ html{
     text-align: center;
     height: auto;
     padding: 40px;
+}
+
+.product-image {
+    transition: 1s;
+}
+
+.product-image:hover {
+    transition: 1s;
+    transform: scale(1.04, 1.04);
+    box-shadow: -8px -6px 11px 1px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+
+.description {
+    margin-top: 5px;
 }
 
 #video{
