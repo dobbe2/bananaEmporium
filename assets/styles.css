@@ -94,8 +94,21 @@ a {
     box-shadow: -8px -6px 11px 1px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
 }
 
+.product-link {
+    margin-top: 10px;
+}
+
 .description {
-    margin-top: 5px;
+    margin: 5px 0 20px;
+}
+@media (max-width: 768px) {
+    .description {
+        font-size: 33px;
+    }
+    .product-link {
+        font-size: 30px;
+
+    }
 }
 
 #video{
