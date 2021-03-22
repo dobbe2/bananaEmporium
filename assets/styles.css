@@ -107,13 +107,16 @@ a {
     }
     .product-link {
         font-size: 30px;
-
     }
+    .product-image{
+        width: 80%;
+    } 
 }
 
 #video{
-    margin: 20px auto;
-    padding: 20px 100px 40px 100px;
+    /* margin: 20px auto; */
+    /* padding: 20px 100px 40px 100px; */
+    padding: 14% 25%;
 }
 
 #image {
